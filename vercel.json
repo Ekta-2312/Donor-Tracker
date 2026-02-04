@@ -19,16 +19,12 @@
       "dest": "/api/index.ts"
     },
     {
-      "src": "/static/(.*)",
-      "dest": "/client/build/static/$1"
-    },
-    {
-      "src": "/manifest.json",
-      "dest": "/client/build/manifest.json"
+      "src": "/(.*\\.(js|css|json|png|jpg|jpeg|gif|svg|ico|woff|woff2|ttf|eot))",
+      "dest": "/client/$1"
     },
     {
       "src": "/(.*)",
-      "dest": "/client/build/index.html"
+      "dest": "/client/index.html"
     }
   ]
 }
