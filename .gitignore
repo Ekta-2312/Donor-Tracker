@@ -2,7 +2,7 @@ node_modules
 dist
 client/build
 client/node_modules
-public
+/public
 *.log
 .env
 .DS_Store
